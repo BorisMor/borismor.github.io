@@ -1,0 +1,22 @@
+.dialog-edit-image .cropper-drag-box {
+    background-color: black;
+}
+
+.dialog-edit-image .modal-dialog {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* full-screen  */
+.is-mobile .dialog-edit-image .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.is-mobile .dialog-edit-image .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
